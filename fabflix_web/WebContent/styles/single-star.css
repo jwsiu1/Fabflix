@@ -1,0 +1,17 @@
+#single-star-container {
+    padding-left: 2em;
+    padding-right: 2em;
+}
+
+#star_info p {
+    font-size: 1em;
+}
+
+#movie_table {
+    display: table;
+
+}
+
+.glyphicon-expand {
+    color: #E50914;
+}

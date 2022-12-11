@@ -1,0 +1,28 @@
+
+/*NAVBAR CSS*/
+#navbar {
+    display: flex;
+    justify-content: space-between;
+    padding: 1em 3em;
+    align-content: flex-start;
+    width: 100%;
+}
+.nav-item {
+    color: black;
+    display: grid;
+    align-content: center;
+}
+
+
+#movies-page-link {
+    text-decoration: none;
+    color: black;
+}
+#header {
+    /*margin: 1em;*/
+}
+
+.glyphicon-film {
+    color: #E50914;
+}
+/*NAVBAR CSS END*/

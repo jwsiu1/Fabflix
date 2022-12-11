@@ -1,0 +1,108 @@
+.card {
+    /* From https://css.glass */
+    background: rgba(255, 255, 255, 0.3);
+    border-radius: 16px;
+    box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+    backdrop-filter: blur(6px);
+    -webkit-backdrop-filter: blur(6px);
+    /*background-color: white;*/
+    color: white;
+    height: auto;
+    width: 50%;
+    padding: 1em 3em;
+
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+    font-family: Helvetica Neue,Helvetica,Arial,sans-serif;
+}
+
+#login-background {
+    background-image: linear-gradient(to top right, #001f50, rgba(117, 19, 93, 0.73)),url('https://images.unsplash.com/photo-1616530940355-351fabd9524b?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=870&q=80'), url('samuel-regan-asante-wMkaMXTJjlQ-unsplash.jpg');
+    background-size: cover;
+    height: 100vh;
+    width: 100vw;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+form input, button{
+    border-radius: 5px;
+    padding: 1em;
+    border-top: none;
+    border-left: none;
+    border-right: none;
+    width: 100%;
+    margin-bottom: 0.5em;
+    margin-top: 0.5em;
+}
+
+#login-btn {
+    padding: .75em;
+    font-size: 1.25em;
+    background-color: #3AAF83;
+    border: none;
+}
+
+#login-btn:hover {
+    background-color: #2c916d;
+}
+
+form {
+    /*border: 1px solid black;*/
+    /*padding: 1em;*/
+    /*width: 75%;*/
+    height: auto;
+    color: black;
+}
+
+#movies-page-link {
+    position: absolute;
+}
+
+#header {
+    margin: 1em;
+    color: white;
+}
+.glyphicon-film {
+    color: #E50914;
+}
+
+#signup-link {
+    color: #48cefd;
+    font-weight: bold;
+    font-size: 1.2em;
+}
+
+#signup-link:hover {
+    color: #3896b7;
+}
+
+h1 {
+    font-weight: 700;
+}
+
+#error-card {
+    background-color: #E76F51;
+    border-radius: 5px;
+    padding: 1em;
+    margin: 1em 0em;
+    color: white;
+}
+
+@media (max-width: 691px) {
+    .card {
+        width: 75%;
+    }
+
+    /*#welcome-text {*/
+    /*    display: none;*/
+    /*}*/
+
+    /*#sign-in-text{*/
+    /*    font-size: 2em;*/
+    /*}*/
+}

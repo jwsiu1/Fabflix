@@ -1,0 +1,31 @@
+td {
+    padding: 1em !important;
+    font-size: 16px;
+}
+
+.glyphicon-trash:hover {
+    color: indianred;
+    cursor: pointer;
+}
+
+#cart-empty-container {
+    display: grid;
+    height: 100vh;
+    align-content: center;
+}
+
+#cart-empty-container h3 {
+    color: indianred;
+}
+
+#checkout-container {
+    padding: 1em;
+    margin: auto;
+    width: 80%;
+    display: grid;
+    align-content: space-between;
+    min-height: 70vh;
+}
+
+
+

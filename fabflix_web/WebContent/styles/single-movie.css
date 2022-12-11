@@ -1,0 +1,57 @@
+#single-movie-container {
+    padding-left: 2em;
+    padding-right: 2em;
+}
+
+#movie-card {
+    border-radius: 10px;
+    background-color: #F4D8CD;
+    padding: 1em;
+    color: black;
+}
+
+.glyphicon-expand {
+    color: #E50914;
+}
+
+.descriptor {
+    text-align: right;
+    font-weight: bold;
+}
+
+.description {
+    text-align: left;
+}
+
+#movie-info td{
+    padding: 0.5em;
+}
+
+#movie-info {
+    margin: 2em;
+}
+
+.genre-button {
+    border-radius: 10px;
+    border: 1px solid transparent;
+}
+
+#movie-stars {
+    margin: 2em;
+}
+
+#add-to-cart-btn {
+    padding: 0.5em 2em;
+    border: none;
+    border-radius: 25px;
+    font-size: 14px;
+}
+
+.genre-link {
+    color: black;
+}
+
+.genre-link:hover {
+    text-decoration: none;
+    color: #001f50;
+}

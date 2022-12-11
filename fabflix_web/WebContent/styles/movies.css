@@ -1,0 +1,43 @@
+#container {
+    margin: 0em 2em 1em;
+}
+
+#genre-button {
+    border-radius: 10px;
+    border: 1px solid;
+}
+
+body {
+    font-size: 16px;
+}
+
+#add-to-cart-btn {
+    padding: 0.5em 2em;
+    border: none;
+    border-radius: 25px;
+    font-size: 14px;
+}
+.add-to-cart-btn {
+    padding: 0.5em 2em;
+    border: none;
+    border-radius: 25px;
+    font-size: 14px;
+    width: 100%;
+    background-color: lightgreen;
+}
+.card-text {
+    margin-top: 0.5em;
+}
+.card-footer {
+    background-color: transparent;
+    border-top: none;
+}
+
+.genre-link {
+    color: black;
+}
+
+.genre-link:hover {
+    text-decoration: none;
+    color: #001f50;
+}
