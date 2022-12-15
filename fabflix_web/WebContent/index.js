@@ -25,7 +25,7 @@ function handleMainResult(resultData) {
             rowHTML +=
                 "<th>" +
                 '<a href="movies.html?genre_id=' + resultData[i]['genre_id'] +
-                '&title_name=&genre_id=&title_name=&movie_title=&star_name=&director_name=&movie_year=&page=1&display=10">'
+                '&title_name=&movie_title=&star_name=&director_name=&movie_year=&page=1&display=10">'
                 + resultData[i]['genre_name'] +
                 '</a>' +
                 "</th>";
@@ -37,7 +37,7 @@ function handleMainResult(resultData) {
             rowHTML += "<tr>";
             rowHTML +=
                 "<th>" +
-                '<a href="movies.html?genre_id=&title_name=' + resultData[i]['title_name'] + '&genre-id=&title_name=&movie_title=&star_name=&director_name=&movie_year=&page=1&display=10">'
+                '<a href="movies.html?genre_id=&title_name=' + resultData[i]['title_name'] + '&movie_title=&star_name=&director_name=&movie_year=&page=1&display=10">'
                 + resultData[i]['title_name'] +
                 '</a>' +
                 "</th>";
@@ -50,7 +50,7 @@ function handleMainResult(resultData) {
     rowHTML += "<tr>";
     rowHTML +=
         "<th>" +
-        '<a href="movies.html?genre_id=&title_name=*&genre-id=&title_name=&movie_title=&star_name=&director_name=&movie_year=&page=1&display=10">'
+        '<a href="movies.html?genre_id=&title_name=*&movie_title=&star_name=&director_name=&movie_year=&page=1&display=10">'
         + '*' +
         '</a>' +
         "</th>";
