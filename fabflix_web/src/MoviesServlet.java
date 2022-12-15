@@ -76,7 +76,7 @@ public class MoviesServlet extends HttpServlet {
                 } else {
                     query = "SELECT * " +
                             "FROM movies, ratings " +
-                            "WHERE MATCH(title) AGAINST ('" + fullTextMovieExpression + "' IN BOOLEAN MODE) AND id=movieId";
+                            "WHERE title LIKE '" + title_name + "%' AND id=movieId";
                 }
             }
             else if(!star_name.isEmpty() || !movieTitle.isEmpty() || !director_name.isEmpty() || !movieYear.isEmpty()){
